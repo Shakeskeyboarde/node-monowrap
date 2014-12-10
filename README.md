@@ -82,6 +82,15 @@ with a tab  which should
 
 ```
 
+If you just want to wrap text to a specific width, leaving all the other options at their default values, you can
+pass a number as the second parameter instead of an options map.
+
+```js
+monowrap(text, 80);
+// Is the same as...
+monowrap(text, { width: 80 });
+```
+
 Notes
 -----
 

@@ -1,6 +1,6 @@
 {
-  "name": "node-monowrap",
-  "version": "1.0.0",
+  "name": "monowrap",
+  "version": "1.0.1",
   "description": "Intelligently wrap monospaced text.",
   "main": "index.js",
   "scripts": {

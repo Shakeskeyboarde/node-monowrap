@@ -32,7 +32,7 @@ var output = monowrap(text, {
 	// Wrap text to this many columns. Defaults to no wrapping. If you're going
 	// to print out to a terminal from Node, you can get the current width of
 	// the terminal from `process.stdout.columns`.
-	width: 30,
+	width: 26,
 
 	// Set width of a tab character. Defaults to 4.
 	tabWidth: 4,
@@ -59,22 +59,26 @@ console.log(output);
 
 #### output
 ```txt
-Usage:  foo --bar --baz --bing
-            --ring
+Usage:  foo  --bar --baz
+             --bing --ring
 
 Options:
-    --foo   Is a simple test
-            of how well the
-            wrapping works.
+    --foo   Is a simple
+            test of how
+            well the
+            wrapping
+            works.
     --bar   blah blah blah
             blah
 
-And some fairly long text with
-a tab   which should make it
-        wrap to the end of
-        that tab.
+And some fairly long text
+with a tab  which should
+            make it wrap
+            to the end of
+            that tab.
 
- 1) testing one two three four
+ 1) testing one two three
+    four
 
 ```
 

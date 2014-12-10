@@ -1,6 +1,6 @@
 {
   "name": "monowrap",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Intelligently wrap monospaced text.",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,6 @@
   },
   "homepage": "https://github.com/ChrisAckerman/node-monowrap",
   "dependencies": {
-    "definition": "^1.0.1",
-    "lodash": "^2.4.1"
+    "definition": "^1.0.1"
   }
 }

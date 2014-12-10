@@ -9,7 +9,7 @@ Usage
 #### usage.txt
 ```txt
 
-Usage:	foo	--bar --baz --bing --ring
+Usage:	foo  --bar --baz --bing --ring
 
 Options:
 	--foo	Is a simple test of how well the wrapping works.

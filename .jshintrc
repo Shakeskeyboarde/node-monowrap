@@ -1,0 +1,7 @@
+{
+	"node": true,
+	"undef": true,
+	"unused": true,
+	"eqnull": true,
+	"boss": true
+}
